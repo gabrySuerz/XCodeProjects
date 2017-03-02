@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386963101E51FA83008F9655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3869630F1E51FA83008F9655 /* main.m */; };
+		386963131E51FA83008F9655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386963121E51FA83008F9655 /* AppDelegate.m */; };
+		386963191E51FA83008F9655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386963171E51FA83008F9655 /* Main.storyboard */; };
+		3869631B1E51FA83008F9655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3869631A1E51FA83008F9655 /* Assets.xcassets */; };
+		3869631E1E51FA83008F9655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3869631C1E51FA83008F9655 /* LaunchScreen.storyboard */; };
+		386963301E51FB68008F9655 /* Risultato.m in Sources */ = {isa = PBXBuildFile; fileRef = 386963281E51FB68008F9655 /* Risultato.m */; };
+		386963311E51FB68008F9655 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3869632B1E51FB68008F9655 /* GameViewController.m */; };
+		386963321E51FB68008F9655 /* ScoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3869632D1E51FB68008F9655 /* ScoreTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3869630B1E51FA83008F9655 /* TapChallengeV2_13-02-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TapChallengeV2_13-02-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3869630F1E51FA83008F9655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		386963111E51FA83008F9655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		386963121E51FA83008F9655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		386963181E51FA83008F9655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3869631A1E51FA83008F9655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3869631D1E51FA83008F9655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3869631F1E51FA83008F9655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386963271E51FB68008F9655 /* Risultato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Risultato.h; sourceTree = "<group>"; };
+		386963281E51FB68008F9655 /* Risultato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Risultato.m; sourceTree = "<group>"; };
+		3869632A1E51FB68008F9655 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3869632B1E51FB68008F9655 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3869632C1E51FB68008F9655 /* ScoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreTableViewController.h; sourceTree = "<group>"; };
+		3869632D1E51FB68008F9655 /* ScoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386963081E51FA83008F9655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386963021E51FA83008F9655 = {
+			isa = PBXGroup;
+			children = (
+				3869630D1E51FA83008F9655 /* TapChallengeV2_13-02-2017 */,
+				3869630C1E51FA83008F9655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3869630C1E51FA83008F9655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3869630B1E51FA83008F9655 /* TapChallengeV2_13-02-2017.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3869630D1E51FA83008F9655 /* TapChallengeV2_13-02-2017 */ = {
+			isa = PBXGroup;
+			children = (
+				386963251E51FB68008F9655 /* Classes */,
+				386963111E51FA83008F9655 /* AppDelegate.h */,
+				386963121E51FA83008F9655 /* AppDelegate.m */,
+				386963171E51FA83008F9655 /* Main.storyboard */,
+				3869631A1E51FA83008F9655 /* Assets.xcassets */,
+				3869631C1E51FA83008F9655 /* LaunchScreen.storyboard */,
+				3869631F1E51FA83008F9655 /* Info.plist */,
+				3869630E1E51FA83008F9655 /* Supporting Files */,
+			);
+			path = "TapChallengeV2_13-02-2017";
+			sourceTree = "<group>";
+		};
+		3869630E1E51FA83008F9655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3869630F1E51FA83008F9655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		386963251E51FB68008F9655 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				386963261E51FB68008F9655 /* Model */,
+				386963291E51FB68008F9655 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		386963261E51FB68008F9655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				386963271E51FB68008F9655 /* Risultato.h */,
+				386963281E51FB68008F9655 /* Risultato.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		386963291E51FB68008F9655 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3869632A1E51FB68008F9655 /* GameViewController.h */,
+				3869632B1E51FB68008F9655 /* GameViewController.m */,
+				3869632C1E51FB68008F9655 /* ScoreTableViewController.h */,
+				3869632D1E51FB68008F9655 /* ScoreTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3869630A1E51FA83008F9655 /* TapChallengeV2_13-02-2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386963221E51FA83008F9655 /* Build configuration list for PBXNativeTarget "TapChallengeV2_13-02-2017" */;
+			buildPhases = (
+				386963071E51FA83008F9655 /* Sources */,
+				386963081E51FA83008F9655 /* Frameworks */,
+				386963091E51FA83008F9655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TapChallengeV2_13-02-2017";
+			productName = "TapChallengeV2_13-02-2017";
+			productReference = 3869630B1E51FA83008F9655 /* TapChallengeV2_13-02-2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386963031E51FA83008F9655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gabriele Suerz";
+				TargetAttributes = {
+					3869630A1E51FA83008F9655 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 386963061E51FA83008F9655 /* Build configuration list for PBXProject "TapChallengeV2_13-02-2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386963021E51FA83008F9655;
+			productRefGroup = 3869630C1E51FA83008F9655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3869630A1E51FA83008F9655 /* TapChallengeV2_13-02-2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386963091E51FA83008F9655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3869631E1E51FA83008F9655 /* LaunchScreen.storyboard in Resources */,
+				3869631B1E51FA83008F9655 /* Assets.xcassets in Resources */,
+				386963191E51FA83008F9655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386963071E51FA83008F9655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386963311E51FB68008F9655 /* GameViewController.m in Sources */,
+				386963301E51FB68008F9655 /* Risultato.m in Sources */,
+				386963321E51FB68008F9655 /* ScoreTableViewController.m in Sources */,
+				386963131E51FA83008F9655 /* AppDelegate.m in Sources */,
+				386963101E51FA83008F9655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		386963171E51FA83008F9655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386963181E51FA83008F9655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3869631C1E51FA83008F9655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3869631D1E51FA83008F9655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386963201E51FA83008F9655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		386963211E51FA83008F9655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		386963231E51FA83008F9655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TapChallengeV2_13-02-2017/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrySuerz.TapChallengeV2-13-02-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		386963241E51FA83008F9655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TapChallengeV2_13-02-2017/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabrySuerz.TapChallengeV2-13-02-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386963061E51FA83008F9655 /* Build configuration list for PBXProject "TapChallengeV2_13-02-2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386963201E51FA83008F9655 /* Debug */,
+				386963211E51FA83008F9655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386963221E51FA83008F9655 /* Build configuration list for PBXNativeTarget "TapChallengeV2_13-02-2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386963231E51FA83008F9655 /* Debug */,
+				386963241E51FA83008F9655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386963031E51FA83008F9655 /* Project object */;
+}
