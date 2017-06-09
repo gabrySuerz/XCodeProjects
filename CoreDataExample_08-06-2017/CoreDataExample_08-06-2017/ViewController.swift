@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let managedContext = self.container.viewContext
         let fetchRequest = NSFetchRequest<Person>(entityName: "Person")
         do {
+            // uso direttamente gli NSManagedObject così posso effetuare le operazioni più facilmente
             self.people = try managedContext.fetch(fetchRequest)
         } catch let error as NSError {
             print("Could not fetch \(error)")
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func addPerson(_ sender: Any) {
-        let alert = UIAlertController.init(title: "Hey", message: "You", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController.init(title: "Add", message: "Add new person", preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction.init(title: "Ok", style: UIAlertActionStyle.default, handler: {
                 (UIAlertAction) in
                     self.add(name: (alert.textFields?[0].text)!)
