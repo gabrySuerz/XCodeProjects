@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChatMQTT_09-06-2017' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for chatMqtt_09-06-2017
+  pod 'SwiftMQTT', '~> 2.0'
+  pod 'ACProgressHUD-Swift', '~> 1.2' 
+
+end
